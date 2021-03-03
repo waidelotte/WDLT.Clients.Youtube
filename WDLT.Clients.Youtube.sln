@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDLT.Clients.Youtube", "WDLT.Clients.Youtube\WDLT.Clients.Youtube.csproj", "{AE261AEE-0F56-48B5-9EDD-613059694F44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WDLT.Clients.Base", "..\WDLT.Clients.Base\WDLT.Clients.Base\WDLT.Clients.Base.csproj", "{4CC3337B-9EA5-4B4B-AC66-C9E811B5708D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE261AEE-0F56-48B5-9EDD-613059694F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE261AEE-0F56-48B5-9EDD-613059694F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE261AEE-0F56-48B5-9EDD-613059694F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE261AEE-0F56-48B5-9EDD-613059694F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC3337B-9EA5-4B4B-AC66-C9E811B5708D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC3337B-9EA5-4B4B-AC66-C9E811B5708D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC3337B-9EA5-4B4B-AC66-C9E811B5708D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC3337B-9EA5-4B4B-AC66-C9E811B5708D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32AC6409-09CB-4D66-A23C-A1B5C1C0FC27}
+	EndGlobalSection
+EndGlobal
