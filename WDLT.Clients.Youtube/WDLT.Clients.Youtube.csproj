@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\WDLT.Clients.Base\WDLT.Clients.Base\WDLT.Clients.Base.csproj" />
+    <ProjectReference Include="..\WDLT.Clients.Base\WDLT.Clients.Base\WDLT.Clients.Base.csproj" />
   </ItemGroup>
 
 </Project>
