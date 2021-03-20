@@ -2,10 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Vladyslav Prokhorchuk</Authors>
+    <Company>Vladyslav Prokhorchuk</Company>
+    <Description>Youtube Client</Description>
+    <Copyright>Copyright © Vladyslav Prokhorchuk 2021</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/waidelotte/WDLT.Clients.Youtube</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/waidelotte/WDLT.Clients.Youtube</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WDLT.Clients.Base\WDLT.Clients.Base\WDLT.Clients.Base.csproj" />
+    <PackageReference Include="WDLT.Clients.Base" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
